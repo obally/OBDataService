@@ -16,7 +16,7 @@
 		2B65303B1E6E883E00AC4105 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B6530391E6E883E00AC4105 /* LaunchScreen.storyboard */; };
 		2B6530461E6E883E00AC4105 /* OBDataServiceDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6530451E6E883E00AC4105 /* OBDataServiceDemoTests.m */; };
 		2B6530511E6E883E00AC4105 /* OBDataServiceDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6530501E6E883E00AC4105 /* OBDataServiceDemoUITests.m */; };
-		2B6530651E6E8E0800AC4105 /* OBDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6530641E6E8E0800AC4105 /* OBDataService.m */; };
+		2B6530691E6EA70C00AC4105 /* OBDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6530681E6EA70C00AC4105 /* OBDataService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +54,8 @@
 		2B65304C1E6E883E00AC4105 /* OBDataServiceDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OBDataServiceDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B6530501E6E883E00AC4105 /* OBDataServiceDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OBDataServiceDemoUITests.m; sourceTree = "<group>"; };
 		2B6530521E6E883E00AC4105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2B6530631E6E8E0800AC4105 /* OBDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBDataService.h; sourceTree = "<group>"; };
-		2B6530641E6E8E0800AC4105 /* OBDataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBDataService.m; sourceTree = "<group>"; };
+		2B6530671E6EA70C00AC4105 /* OBDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBDataService.h; sourceTree = "<group>"; };
+		2B6530681E6EA70C00AC4105 /* OBDataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBDataService.m; sourceTree = "<group>"; };
 		AC4A4798BE1A94B72BDC8AFA /* Pods-OBDataServiceDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OBDataServiceDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-OBDataServiceDemo/Pods-OBDataServiceDemo.release.xcconfig"; sourceTree = "<group>"; };
 		F0FE4E12273C6EA993ACFD83 /* Pods-OBDataServiceDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OBDataServiceDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OBDataServiceDemo/Pods-OBDataServiceDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,7 +111,7 @@
 		2B65302A1E6E883E00AC4105 /* OBDataServiceDemo */ = {
 			isa = PBXGroup;
 			children = (
-				2B6530621E6E8E0800AC4105 /* OBDateService */,
+				2B6530661E6EA70C00AC4105 /* OBDataService */,
 				2B65302E1E6E883E00AC4105 /* AppDelegate.h */,
 				2B65302F1E6E883E00AC4105 /* AppDelegate.m */,
 				2B6530311E6E883E00AC4105 /* ViewController.h */,
@@ -151,14 +151,14 @@
 			path = OBDataServiceDemoUITests;
 			sourceTree = "<group>";
 		};
-		2B6530621E6E8E0800AC4105 /* OBDateService */ = {
+		2B6530661E6EA70C00AC4105 /* OBDataService */ = {
 			isa = PBXGroup;
 			children = (
-				2B6530631E6E8E0800AC4105 /* OBDataService.h */,
-				2B6530641E6E8E0800AC4105 /* OBDataService.m */,
+				2B6530671E6EA70C00AC4105 /* OBDataService.h */,
+				2B6530681E6EA70C00AC4105 /* OBDataService.m */,
 			);
-			name = OBDateService;
-			path = ../../OBDateService;
+			name = OBDataService;
+			path = ../../OBDataService;
 			sourceTree = "<group>";
 		};
 		5D75C949FB12E7095679D8CA /* Pods */ = {
@@ -367,7 +367,7 @@
 			files = (
 				2B6530331E6E883E00AC4105 /* ViewController.m in Sources */,
 				2B6530301E6E883E00AC4105 /* AppDelegate.m in Sources */,
-				2B6530651E6E8E0800AC4105 /* OBDataService.m in Sources */,
+				2B6530691E6EA70C00AC4105 /* OBDataService.m in Sources */,
 				2B65302D1E6E883E00AC4105 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
