@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "OBDataService"
-  s.version      = "1.0.0"
+  s.version      = “1.0.2”
   s.summary      = "A tool for URL Request"
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-		A tool for URL Request
+		A tool for URL Request base on AFNetworking
                    DESC
 
   s.homepage     = "https://github.com/obally/OBDataService.git"
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  =  "OBDataService/*.h"
+  s.source_files  =  "OBDataService/*.{h,m}”
   #s.exclude_files = "Classes/Exclude"
   # s.public_header_files = "Classes/**/*.h"
 
